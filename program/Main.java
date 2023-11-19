@@ -1,7 +1,6 @@
 package program;
 
-public class programm {
-    import java.util.*;
+import java.util.*;
 import java.util.stream.Collectors;
 
 class Laptop {
@@ -32,6 +31,9 @@ class Laptop {
 }
 
 public class Main {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Set<Laptop> laptops = new HashSet<>();
         laptops.add(new Laptop("Dell", 16, 512, "Windows", "Black"));
@@ -91,4 +93,4 @@ public class Main {
     }
 }
     
-}
+
